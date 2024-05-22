@@ -29,6 +29,7 @@ The images include (a) a parked car on the pedestrian walkway, (b) a garbage bin
 
 Data augmentation techniques were applied to simulate various weather conditions on the pedestrian walkways.
 To reflect weather and other environmental conditions, we used data augmentation techniques from Automold--Road-Augmentation-Library(https://github.com/UjjwalSaxena/Automold--Road-Augmentation-Library). Additionally, to prevent overfitting, we applied Random Cropping and Rotation for data augmentation. The codes for these augmentations can be found in the files 1. RandomCropping.py and 2. Rotation.py.
+
 ![image](https://github.com/UOSTPLab/Pedestrian-Walkway/assets/166711870/21c0872c-92c8-465e-8051-3158c73f5b65)
 
 For deep learning purposes, the collected images were divided into four types of fixed obstacles and six types of non-fixed obstacles. The fixed obstacles, such as trees, streetlights, and signs, are essential components of the pedestrian walkways. They pose necessary components, and obstructions that cannot be removed or improved. In contrast, the non-fixed obstacles, such as motorcycles, PMs, and breaks, occur temporarily, presenting obstructions that can be improved. This differentiation implies that the nature and predictable behavior patterns of the objects vary, making it crucial to provide a detailed and specific classification for each class. The model plays a key role in understanding various scenarios and in enabling more precise predictions.
