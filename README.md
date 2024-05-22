@@ -8,20 +8,23 @@ The codebase consists of five components:
 4. VOC2YOLO
 5. YOLO2VOC
 
-For data augmentation reflecting weather conditions, we used the GitHub repository (https://github.com/UjjwalSaxena/Automold--Road-Augmentation-Library).
-
 Explanations for each code component are provided in the comments.
 
 
 # Introduction
 We have identified sections with the highest pedestrian traffic in each of the 25 districts across Seoul and collected data on obstacles in the pedestrian walkways.
-![image](https://github.com/UOSTPLab/Pedestrian-Walkway/assets/166711870/67cc5cf6-ffdc-4b67-8356-b6f2b9cc72b5)
+
+![image](https://github.com/UOSTPLab/Pedestrian-Walkway/assets/166711870/10512d8d-c3a9-4b15-b6c6-d3149bba6fa5)
+
 
 Furthermore, we designed specific guidelines for data collection to ensure uniform conditions during capture. These standardized procedures are crucial for maintaining data consistency and ensuring homogeneity during the subsequent data preprocessing and analysis stages.
+
 ![image](https://github.com/UOSTPLab/Pedestrian-Walkway/assets/166711870/fd1fafa1-b64e-4c15-9d86-67697a4e152c)
 
 The dataset consists of a total of 9 classes.
+
 ![image](https://github.com/UOSTPLab/Pedestrian-Walkway/assets/166711870/2fb7ff19-e606-4740-8a0f-5b616e96c47f)
+
 The images include (a) a parked car on the pedestrian walkway, (b) a garbage bin obstructing paths, (c) a broken and uneven walkway surface, (d) an advertising board encroaching on pedestrian space, (e) a fire hydrant blocking part of the walkway, (f) a streetlight post positioned in the walkway, (g) a personal mobility device along with its accompanying sign, and (h) a motorcycle parked on the sidewalk. Each example highlights common issues that pedestrians encounter on the walkways.
 
 Data augmentation techniques were applied to simulate various weather conditions on the pedestrian walkways.
