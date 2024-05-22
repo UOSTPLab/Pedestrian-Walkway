@@ -31,11 +31,11 @@ To reflect weather and other environmental conditions, we used data augmentation
 For deep learning purposes, the collected images were divided into four types of fixed obstacles and six types of non-fixed obstacles. The fixed obstacles, such as trees, streetlights, and signs, are essential components of the pedestrian walkways. They pose necessary components, and obstructions that cannot be removed or improved. In contrast, the non-fixed obstacles, such as motorcycles, PMs, and breaks, occur temporarily, presenting obstructions that can be improved. This differentiation implies that the nature and predictable behavior patterns of the objects vary, making it crucial to provide a detailed and specific classification for each class. The model plays a key role in understanding various scenarios and in enabling more precise predictions.
 The code to automatically classify fixed and non-fixed obstacles can be found in the file named 3. Fixed and non-fixed obstacle detection.py.
 
-
-#Dataset Utilization Strategies
+# Dataset Utilization Strategies
 
 By utilizing this dataset, one can develop models for pedestrian walkway obstacle detection and classification based on the degree of damage. This approach can assess the pedestrian environment, reduce maintenance costs for walkways, and improve the walking environment. Additionally, it can aid in establishing efficient path planning for autonomous delivery robots and other robots that navigate pedestrian walkways in the future.
 ![image](https://github.com/UOSTPLab/Pedestrian-Walkway/assets/166711870/0e4e0b01-75c4-4636-8647-18ccc5b65a81)
 
 Additionally, to ensure the interpretability of the detected objects, we applied Explainable Artificial Intelligence (XAI) techniques. Specifically, we used Grad-CAM from the pytorch-grad-cam library(https://github.com/jacobgil/pytorch-grad-cam). XAI provides transparency by highlighting which parts of the objects the model considers important for detection, thereby offering reliability and trustworthiness in the model's decision-making process.
-![image](https://github.com/UOSTPLab/Pedestrian-Walkway/assets/166711870/9912a850-e20f-40f9-8517-29da309a07ec)
+![image](https://github.com/UOSTPLab/Pedestrian-Walkway/assets/166711870/2f911582-1516-4b4a-ac2f-6ec18e785c6e)
+
